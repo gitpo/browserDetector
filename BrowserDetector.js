@@ -8,12 +8,12 @@ define('shared/utils/BrowserDetector',
     	var _dataBrowser = [
     	    {string: navigator.userAgent, subString: "Chrome", identity: "Chrome"},
 	        {string: navigator.userAgent, subString: "Edge", identity: "MS Edge"}, 
-        	{string: navigator.userAgent, subString: "MSIE", identity: "Explorer"}, 
-            {string: navigator.userAgent, subString: "Trident", identity: "Explorer"},
-        	{string: navigator.userAgent, subString: "Firefox", identity: "Firefox"},
-        	{string: navigator.userAgent, subString: "Opera", identity: "Opera"},
-        	{string: navigator.userAgent, subString: "OPR", identity: "Opera"},
-        	{string: navigator.userAgent, subString: "Safari", identity: "Safari"}
+			{string: navigator.userAgent, subString: "MSIE", identity: "Explorer"}, 
+	    	{string: navigator.userAgent, subString: "Trident", identity: "Explorer"},
+			{string: navigator.userAgent, subString: "Firefox", identity: "Firefox"},
+			{string: navigator.userAgent, subString: "Opera", identity: "Opera"},
+			{string: navigator.userAgent, subString: "OPR", identity: "Opera"},
+			{string: navigator.userAgent, subString: "Safari", identity: "Safari"}
         ];
 	
 		function _searchString(data){
